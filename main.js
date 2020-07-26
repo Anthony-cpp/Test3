@@ -1,17 +1,28 @@
+
 var event_num=0;
 
 function(event_num){
+	
 	if(event_num == 0){
 
-//‚±‚±‚Éˆ—‚ğ‘‚­
-
+	//ã“ã“ã«å‡¦ç†ã‚’æ›¸ã
+		
+	document.getElementById("event_str").textContent = "event_1";
+		
 	event_num = 1;
+		
 	}
-else if(event_num == 1){
-	document.getElementById("event_str").textContent = "TEST TEST";
-}
-else if(event_num == 2){
 
-	//‚±‚±‚Éˆ—‚ğ‘‚­
-}
+	else if(event_num == 1){
+		
+	document.getElementById("event_str").textContent = "TEST TEST";
+		
+	}
 	
+	else if(event_num == 2){
+
+	//ã“ã“ã«å‡¦ç†ã‚’æ›¸ã
+		
+	}
+
+}
